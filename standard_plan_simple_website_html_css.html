@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project – Standard Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background: #198754;
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 38px;
+    }
+    header p {
+      font-size: 18px;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-bottom: 12px;
+      color: #198754;
+    }
+    .about {
+      background: #fff;
+      border-radius: 10px;
+      padding: 35px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    }
+    .blog {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .post {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    }
+    form {
+      background: #fff;
+      padding: 35px;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+      max-width: 650px;
+      margin: auto;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #198754;
+      color: #fff;
+      border: none;
+      padding: 14px 22px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Company Name</h1>
+  <p>Custom Websites for Growing Businesses</p>
+</header>
+
+<section>
+  <h2>Standard Plan Features</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Custom UI/UX Design</h3>
+      <p>Tailor-made design that reflects your brand and enhances user engagement.</p>
+    </div>
+    <div class="card">
+      <h3>Responsive & SEO-Friendly</h3>
+      <p>Optimized for all devices with SEO best practices for better visibility.</p>
+    </div>
+    <div class="card">
+      <h3>Blog & Portfolio</h3>
+      <p>Dedicated sections to showcase work, publish articles, and build authority.</p>
+    </div>
+    <div class="card">
+      <h3>Social Media Integration</h3>
+      <p>Connect your website with social platforms to grow reach and engagement.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About This Project</h2>
+  <div class="about">
+    <p>
+      This demo represents our <strong>Standard Website Plan</strong>, designed for growing businesses that need a strong digital presence.
+      It includes custom design, SEO-ready structure, and content features like blogs and portfolios.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Blog & Portfolio Preview</h2>
+  <div class="blog">
+    <div class="post">
+      <h3>Sample Blog Post</h3>
+      <p>Share updates, insights, and company news to engage your audience.</p>
+    </div>
+    <div class="post">
+      <h3>Portfolio Item</h3>
+      <p>Showcase completed projects and highlight your expertise.</p>
+    </div>
+    <div class="post">
+      <h3>Another Article</h3>
+      <p>Build credibility and improve SEO with quality content.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Your Company Name. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
